@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "640957355099",
+    "firebase_url": "https://yandavidlab8.firebaseio.com",
+    "project_id": "yandavidlab8",
+    "storage_bucket": "yandavidlab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640957355099:android:1a2d375586b1d4aa",
+        "android_client_info": {
+          "package_name": "com.david.yan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640957355099-dkcu5ostv125tkbucopd38gcd117qtck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.david.yan",
+            "certificate_hash": "167bccefd9d5bd37f23992233b3c098de858fd64"
+          }
+        },
+        {
+          "client_id": "640957355099-3djb2l7hllogeb751sjmpgsapear75sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBjVRbG88lKJZSlOGlv4skD8uaK05zAic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640957355099-3djb2l7hllogeb751sjmpgsapear75sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
