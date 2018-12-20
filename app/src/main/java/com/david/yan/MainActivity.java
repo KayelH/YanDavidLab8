@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        mydatabase = FirebaseDatabase.getInstance().getReference("person");
+        mydatabase = FirebaseDatabase.getInstance().getReference("student");
 
 
-                inputName = findViewById(R.id.inputName);
+        inputName = findViewById(R.id.inputName);
         inputAge = findViewById(R.id.inputAge);
         inputGender = findViewById(R.id.inputGender);
 
@@ -64,11 +64,10 @@ public class MainActivity extends AppCompatActivity {
                 Name.setText("");
                 Age.setText("");
                 Gender.setText("");
-                return;
             }
 
             @Override
-            public void onCancelled(DatabaseError error) {}
+            public void onCancelled(DatabaseError databaseError) { }
 
         };
         mydatabase.addValueEventListener(listener);
@@ -89,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected String convertText(EditText tx){
-        return tx.getText().toString();
+        return tx.getText().toString().trim();
     }
 
 

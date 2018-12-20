@@ -9,6 +9,10 @@ public class Do {
         this.gender = gender;
     }
 
+    public Do(){
+
+    }
+
 
     public String getName() {
         return name;
